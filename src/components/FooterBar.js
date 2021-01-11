@@ -32,11 +32,7 @@ function FooterBar({ todos, filter, setFilter }) {
 							handlefilter(0);
 						}}
 					>
-						<a
-
-						// className="[if(activeFilter = 'all', 'selected')]"
-						// mv-action="set(activeFilter, 'all')"
-						>
+						<>
 							All
 						</a>
 					</li>
@@ -45,11 +41,7 @@ function FooterBar({ todos, filter, setFilter }) {
 							handlefilter(1);
 						}}
 					>
-						<a
-
-						// class="[if(activeFilter = 'active', 'selected')]"
-						// mv-action="set(activeFilter, 'active')"
-						>
+						<>
 							Active
 						</a>
 					</li>
@@ -58,11 +50,7 @@ function FooterBar({ todos, filter, setFilter }) {
 							handlefilter(2);
 						}}
 					>
-						<a
-
-						// class="[if(activeFilter = 'completed', 'selected')]"
-						// mv-action="set(activeFilter, 'completed')"
-						>
+						<>
 							Completed
 						</a>
 					</li>
