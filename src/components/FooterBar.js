@@ -34,7 +34,7 @@ function FooterBar({ todos, filter, setFilter }) {
 					>
 						<>
 							All
-						</a>
+						</>
 					</li>
 					<li
 						onClick={() => {
@@ -43,7 +43,7 @@ function FooterBar({ todos, filter, setFilter }) {
 					>
 						<>
 							Active
-						</a>
+						</>
 					</li>
 					<li
 						onClick={() => {
@@ -52,7 +52,7 @@ function FooterBar({ todos, filter, setFilter }) {
 					>
 						<>
 							Completed
-						</a>
+						</>
 					</li>
 				</ul>
 				<button
